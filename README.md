@@ -7,8 +7,8 @@ So, let's try it and see.
 
 It does indeed appear that git merge does a reasonable job. When I modify and commit `file1` in branch `newCode`,
 then later modify and commit `file1` in branch `main`, then merge newCode into main,
-`file1` in `main` ends up with the changes from both `main` and `newCode, despite the fact that the file
-modfication date and the commit date in `newCode` were both earlier than those for `main`.
+`file1` in `main` ends up with the changes from both `main` and `newCode`, despite the fact that the file
+modification date and the commit date in `newCode` were both earlier than those for `main`.
 
 Only if I modify the same line in  both branches do I get a merge conflict.
 This repository has conflicting changes in file1 in branch `main` and `newCode`. If you clone it and merge `newCode` into `main`, git should report a merge conflict.
