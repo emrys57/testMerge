@@ -10,7 +10,7 @@ I 'm writing a few lines of text now.
 3 three
 4 four - extra text added in newCode at 13:41
 5 five
-6 six
+6 six - add test in `main` at 13:52
 7 seven
 8 eight
 I am adding this line in branch `newCode` at 13:27 and will commit it soon.
